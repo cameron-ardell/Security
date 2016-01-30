@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< Updated upstream
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+=======
+<<<<<<< Updated upstream
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -133,7 +141,11 @@
                                     <action selector="stoplight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="izd-qw-Jlt"/>
                                 </connections>
                             </button>
+<<<<<<< Updated upstream
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YM-HC-B0H">
+=======
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YM-HC-B0H">
+>>>>>>> Stashed changes
                                 <rect key="frame" x="79" y="243" width="163" height="108"/>
                                 <color key="backgroundColor" red="1" green="0.80131471651730557" blue="0.13866086079664008" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -147,7 +159,18 @@
                                     <action selector="stoplight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g9g-Q1-qjI"/>
                                 </connections>
                             </button>
+<<<<<<< Updated upstream
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYi-r8-ASw">
+=======
+<<<<<<< Updated upstream
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dad-cR-T4n">
+                                <rect key="frame" x="285" y="110" width="30" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.22771674888942861" blue="0.17790730682575462" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYi-r8-ASw">
+>>>>>>> Stashed changes
                                 <rect key="frame" x="79" y="374" width="163" height="107"/>
                                 <color key="backgroundColor" red="0.086719105480940042" green="0.50924410994764391" blue="0.19209038133833226" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -155,15 +178,34 @@
                                 </constraints>
                                 <state key="normal" title="Green">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
                                 </state>
                                 <connections>
                                     <action selector="alert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bhq-Dh-oVT"/>
                                     <action selector="stoplight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bF9-DT-RnG"/>
                                 </connections>
                             </button>
+<<<<<<< Updated upstream
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h38-1N-xEe">
                                 <rect key="frame" x="137" y="508" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+=======
+<<<<<<< Updated upstream
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWf-eQ-8lA">
+                                <rect key="frame" x="89" y="156" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tester:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XBy-C4-igI"/>
+                                </connections>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h38-1N-xEe">
+                                <rect key="frame" x="137" y="508" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
