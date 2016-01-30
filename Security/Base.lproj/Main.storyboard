@@ -14,12 +14,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="zyA-Mk-hPn" kind="relationship" relationship="rootViewController" id="r5r-gx-jrY"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="fLw-BS-eVA"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VwC-CD-yWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-620" y="-16"/>
+            <point key="canvasLocation" x="-249" y="139"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="Z0h-5M-YEb">
@@ -34,10 +34,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtJ-Ms-wIN">
-                                <rect key="frame" x="284" y="494" width="32" height="30"/>
-                                <state key="normal" title="Next"/>
+                                <rect key="frame" x="246" y="452" width="109" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Save"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Xjh-E4-WrO"/>
+                                    <action selector="next" destination="0Y5-pd-qeO" eventType="touchUpInside" id="au2-6j-qW4"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dDd-Wr-BgZ">
@@ -49,6 +50,14 @@
                                 <rect key="frame" x="354" y="221" width="139" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qn0-bG-ius">
+                                <rect key="frame" x="354" y="161" width="139" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameField:" destination="0Y5-pd-qeO" eventType="primaryActionTriggered" id="S5h-80-rSK"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4e-Um-0Wl">
                                 <rect key="frame" x="137" y="164" width="106" height="21"/>
@@ -63,24 +72,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsY-ng-COk">
-                                <rect key="frame" x="137" y="289" width="115" height="21"/>
+                                <rect key="frame" x="128" y="299" width="115" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qn0-bG-ius">
-                                <rect key="frame" x="354" y="161" width="139" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="kDb-CM-Hnx"/>
+                    <connections>
+                        <outlet property="fullName" destination="Qn0-bG-ius" id="Afh-ly-YgG"/>
+                        <outlet property="phoneNumber" destination="dDd-Wr-BgZ" id="PKh-oG-6Tn"/>
+                        <outlet property="studentID" destination="u5p-ly-5Rx" id="KIM-g2-hxX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P4K-uO-KUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873" y="16"/>
+            <point key="canvasLocation" x="1151" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -126,26 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1559" y="-16"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="wAD-iH-bH5">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zyA-Mk-hPn" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="ZFH-wO-Jfl"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jzF-Q5-C8h">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="0Y5-pd-qeO" kind="relationship" relationship="rootViewController" id="GUf-pe-T1X"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N4Z-G5-Flk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="61" y="16"/>
+            <point key="canvasLocation" x="422" y="139"/>
         </scene>
     </scenes>
 </document>

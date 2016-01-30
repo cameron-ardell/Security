@@ -71,7 +71,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     
-    
+   /*
     //trying to send stuff
     @IBAction func submitAction(sender: AnyObject) {
         
@@ -123,7 +123,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         task.resume()
         
     }
-    
+    */
 
 
 }
