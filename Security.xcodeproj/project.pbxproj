@@ -107,8 +107,8 @@
 			children = (
 				E4698B081C5C63C500C25353 /* AppDelegate.swift */,
 				E4698B0A1C5C63C500C25353 /* ViewController.swift */,
-				EAA7D7C41C5D33CF00F52206 /* WebSocket.swift */,
 				E4698B0C1C5C63C500C25353 /* Main.storyboard */,
+				EAA7D7C41C5D33CF00F52206 /* WebSocket.swift */,
 				E4698B381C5D1DEE00C25353 /* SecondViewController.swift */,
 				E4698B0F1C5C63C500C25353 /* Assets.xcassets */,
 				E4698B111C5C63C500C25353 /* LaunchScreen.storyboard */,
