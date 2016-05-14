@@ -21,7 +21,15 @@ class SecondViewController: UIViewController {
     
     
     @IBAction func save() {
-        print("Full Name=\(fullName.text!)")
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setValue(fullName.text!, forKey: "fullName")
+        defaults.setValue(studentID.text!, forKey: "studentID")
+        defaults.setValue(phoneNumber.text!, forKey: "phoneNumber")
+        
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+        //print("Full Name=\(fullName.text!)")
         
     }
     
